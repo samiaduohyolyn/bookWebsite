@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: aaa;
+    src: url("../fonts/SHDBZ.ttf");
+}
+
+body {
+    background-color: #c1e4e0;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    height: 500px;
+    position: fixed;
+    background: #f1f1f1;
+    margin-top: 40px;
+    font-family: aaa;
+    margin-left: 100px;
+}
+
+li {
+    list-style: none;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background: #9ee9df;
+    width: 150px;
+    font-size: 20px;
+}
+
+li a:active {
+    background-color: rgba(217, 125, 103, 0.73);
+    color: white;
+}
+
+li a:hover:not(:active) {
+    background-color: #555;
+    color: white;
+}
+
+.box {
+    width: 60%;
+    height: 570px;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(217, 125, 103, 0.73);
+    margin-left: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+    margin-left: 50px;
+}
+
+h1 {
+    color: #555555;
+    text-shadow: 0px 10px 8px #CDC673;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: aaa;
+}
+/*a_user.jsp*/
+th {
+    border: 1px solid #999;
+    height: 30px;
+}
+
+table {
+    text-align: center;
+}
+
+.table1 td {
+    border: 1px solid #CBDEED;
+    height: 30px;
+}
+.modbuttom{
+    text-decoration: none;
+    color: white;
+    background: #f1a936;
+    width: 45px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.delbuttom{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background: #ff003c;
+    width: 45px;
+    height: 20px;
+    padding: 2px 5px;
+}
+.add{
+    width: 80px;
+    height: 30px;
+    background: #2c6d99;
+    color: white;
+    font-size: 21px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*b_set.jsp*/
+.text{
+    width: 193px;
+    padding-left: 10px;
+    height: 30px;
+}
+.b_history{
+    height: 50px;
+    width: 100px;
+    background: #9ee9df;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size:20px ;
+}
+.b_history:hover{
+    cursor: pointer;
+}
+.b_history:active{
+    opacity: 0.8;
+}
+/*a_adduser.jsp*/
+.addtable{
+   width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.addtable table{
+    width: 300px;
+    height: 300px;
+}
+.a {
+     width: 70%;
+     padding: 5px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 1px solid rgba(217, 125, 103, 0.73);
+     border-radius: 5px;
+ }
+.b{
+    background-color: #001bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/*a_adduser.jsp*/
+.addtable1{
+    width: 320px;
+    height: 400px;
+    margin: auto;
+}
+.addtable1 table{
+    width: 320px;
+    height: 400px;
+}
+/*b_details.jsp*/
+.addtable2{
+    width: 340px;
+    height: 420px;
+    margin: auto;
+}
+.addtable2 table{
+    width: 340px;
+    height: 420px;
+}
+.c{
+    width: 100px;
+    height: 40px;
+    background-color: #001bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/*查找模块*/
+.foot{
+    position: relative;
+}
+.foot .m{
+    width: 300px;
+    margin: 25px;
+    height: 30px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.foot .s{
+    width: 50px;
+    height: 30px;
+    background: #2c6d99;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+}

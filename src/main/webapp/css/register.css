@@ -1,0 +1,62 @@
+@font-face {
+    font-family: aaa;
+    src: url("../fonts/SHDBZ.ttf");
+}
+
+*{
+    font-family: aaa;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: #c1e4e0 ;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    background-color: rgba(217, 125, 103, 0.73);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top{
+    padding-top: 20px;
+    font-size: 30px;
+    color: #c1e4e0;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.top1{
+    color: #c1e4e0;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+table>tr>td input{
+    border: none;
+    font-size:20px;
+}
+input[type="submit"]{
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #9ee9df;
+    padding:13px 15px;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="submit"]:active{
+    opacity: 0.8;
+}

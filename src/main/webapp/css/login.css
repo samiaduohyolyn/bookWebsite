@@ -1,0 +1,81 @@
+@font-face {
+font-family: aaa;
+    src: url("../fonts/SHDBZ.ttf");
+}
+
+*{
+    font-family: aaa;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: #c1e4e0 ;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    background-color: rgba(217, 125, 103, 0.73);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+form{
+    margin: 10px 0;
+}
+.top{
+    padding-top: 20px;
+    font-size: 30px;
+    color: #c1e4e0;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.top1{
+    color: #c1e4e0;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.input{
+    text-align: center;
+}
+.input span{
+    font-size:20px;
+    letter-spacing: 0.5em;
+}
+.input input{
+    /*letter-spacing: 0.05em;*/
+    border: none;
+    font-size:20px;
+}
+input[type="submit"]{
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #9ee9df;
+    padding:13px 15px;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="submit"]:active{
+    opacity: 0.8;
+}
+.sign span{
+    color: #494a49;
+    position: absolute;
+    left: 47px;
+    letter-spacing: 0.1em;
+}
+p{
+    font-size: 13px;
+    text-align: center;
+}
